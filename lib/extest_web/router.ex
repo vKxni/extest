@@ -20,6 +20,7 @@ defmodule ExtestWeb.Router do
     # html
     get "/", PageController, :home
     get "/test", LolController, :hello
+    get "/github", GitController, :hello
     live "/button", Buttony
 
     # api
